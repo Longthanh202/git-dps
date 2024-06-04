@@ -1,8 +1,12 @@
-import React from 'react'
+import React from "react";
 
 const LoginPage = () => {
-    return(
-        <div className='title'>Welcome to Login Page</div>
-    );
-}
+  const handleLogout = () => {};
+  return (
+    <div>
+      <div className="title">Welcome to Login Page</div>
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+  );
+};
 export default LoginPage;
